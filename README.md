@@ -1,9 +1,9 @@
                                                    React - A JavaScript library for building user interfaces
 
-                                                                        Declarative
+                                                                        Declarative:
 React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
 
-                                                                        Component-Based
+                                                                        Component-Based:
 Build encapsulated components that manage their own state, then compose them to make complex UIs.React can also render on the server using Node and power mobile apps using React Native.
 
                                                                       FIRST CODE EXAMPLE:
