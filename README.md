@@ -167,3 +167,5 @@ Finally, run the project using the start command.
 npm start
 
 After this you will get a basic starting point for building your React application.
+
+![welcome-to-react](https://user-images.githubusercontent.com/41227164/100254507-80ddf200-2f6a-11eb-872c-7b2b3e19e494.png)
