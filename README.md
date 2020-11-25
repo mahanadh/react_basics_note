@@ -127,3 +127,43 @@ class Car extends React.Component {
     );
   }
 }
+
+                                                         ReactJS - Environment Setup
+PREREQUISITES:
+1. NodeJS
+2. NPM
+
+After successfully installing NodeJS, we can start installing React upon it using npm. The most effective way is by using create-react-app command.
+
+                                                       Using the create-react-app command
+Step 1 - install create-react-app
+Browse through the desktop and install the Create React App using command prompt as shown below −
+
+C:\Users\Mahan>cd C:\Users\Mahan\Desktop\
+C:\Users\Mahan\Desktop>npx create-react-app my-app
+This will create a folder named my-app on the desktop and installs all the required files in it.
+
+Step 2 - Delete all the source files
+Browse through the src folder in the generated my-app folder and remove all the files in it as shown below −
+
+C:\Users\Mahan\Desktop>cd my-app/src
+C:\Users\Mahan\Desktop\my-app\src>del *
+C:\Users\Mahan\Desktop\my-app\src\*, Are you sure (Y/N)? y
+
+Step 3 - Add files
+Add files with names index.css and index.js in the src folder as −
+
+C:\Users\Mahan\Desktop\my-app\src>type nul > index.css
+C:\Users\Mahan\Desktop\my-app\src>type nul > index.js
+In the index.js file add the following code
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+
+Step 4 - Run the project
+Finally, run the project using the start command.
+
+npm start
+
+After this you will get a basic starting point for building your React application.
